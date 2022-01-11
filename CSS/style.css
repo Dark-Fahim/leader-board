@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:  #F3F1FF;
+    
+}
+a{
+    text-decoration: none;
+}
+ol, ul{
+    list-style-type: none;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-bottom: 20px;
+
+}
+.container{
+    width: 870px;
+    flex-wrap: wrap;
+    padding: 35px;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: #fff;
+    margin-top: 25px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px lightslategray;
+    
+}
+.section-title{
+    font-size: 24px;
+    color: #562EFF;
+    margin-bottom: 30px;
+}
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    margin-bottom: 32px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    height: 56px;
+    width: 56px;
+}
+.player-name{
+    font-size: 18px;
+    margin-left: 10px;
+}
+/* -----------------------------------------------------------
+-blog part design --------------------------------------------------------*/
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+.blog{
+    display: flex;
+}
+.blog-thumbnail img{
+    width: 177px;
+    height: 117px;
+}
+.blog-details{
+    margin-left: 16px;
+}
+.blog-title{
+    font-size: 20px;
+    line-height: 34px;
+}
+.blog-author{
+    color: #9F9F9F;
+    margin-top: 8px;
+}
+.blog-author a{
+    color: 
+    #562EFF;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 28px;
+}
+.course-banner img{
+    width: 224px;
+    height: 104px;
+}
+.course-info{
+    display: flex;
+    justify-content: space-between;
+}
+.course-heading{
+    margin-bottom: 15px;
+}
+.course-heading h3{
+    font-size: 21px ;
+    color: #1E1E1E;
+    font-weight: 400;
+}
+.course-heading p{
+    color: #ED6B4F;
+    font-size: 15px;
+}
+.ratings{
+    color: #A2A2A2;
+}
+.rated{
+    color: #FFC014;
+
+}
+.un-rated{
+    color: #A2A2A2;
+}
+.time{
+    background-color: #fa725348;
+    color: #FF4A60;
+    font-weight: 700;
+    line-height: 22px
+    ;
+}
